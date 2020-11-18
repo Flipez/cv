@@ -1,0 +1,39 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+% Version: 20110122-4
+
+
+\usepackage[onehalfspacing]{setspace}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\usepackage{genealogytree}
+\linespread{1.18}
+% for some reason, lines take up a lot of space in itemize in English...
+\newenvironment{tightitemize}
+   {\begin{itemize}
+   \setlength{\parskip}{0pt}}
+   {\end{itemize}}
+
+
+% personal data
+\extrainfo{%
+\faXing~\httplink{xing.com/profile/Robert\_Mueller349}\\%
+\faGithub~\httplink{github.com/flipez}\\%
+\faCar~\car\\%
+\gtrsymBorn~\birthday}
+
+\myquote{It's not about the stack. It's about the people}{}
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+\begin{document}
+\setmainfont{TeX Gyre Pagella}
+%\setsansfont{Myriad Pro}
+
+\hyphenpenalty=10000
+%\maketitle
+

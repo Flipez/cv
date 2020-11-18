@@ -1,0 +1,143 @@
+\documentclass[11pt,a4paper,nolmodern]{moderncv}
+
+\title{Site Reliability Engineer}
+
+\usepackage{flipez}
+
+\newcommand{\car}{Führerschein Klasse B}
+\newcommand{\birthday}{05.06.1994}
+\input{content.tex}
+
+\maketitle
+
+\section{Fähigkeiten}
+
+\subsection{Kernfähigkeiten}
+\cvcomputer{Entwicklung}{Ruby, Ruby on Rails}
+           {Operativer Bereich}{Ubuntu, GitLab (CI), Docker, Kubernetes}
+\vskip 0.1in
+
+\subsection{Entwicklung}
+\cvcomputer{Sprachen}{Ruby, JavaScript, Crystal, Shell/Bash}
+           {Frameworks}{Rails, RSpec, Rubocop, Capybara, Selenium, React, Sinatra}
+\vskip 0.1in
+\cvcomputer{Datenbanken}{Redis, PostgreSQL}
+           {Methoden}{Objektorientierte Programmierung, MVC}
+\vskip 0.1in
+\cvcomputer{Source Management}{Git, Flux}
+           {Werkzeuge}{GitLab, GitHub, GitLab CI, Ansible}
+\vskip 0.1in
+
+\subsection{System- und Infrastruktur-Administration}
+\cvcomputer{Web}{Nginx, HAProxy, BGP}
+           {Monitoring}{Sentry, Zabbix, Munin, Prometheus, Grafana}
+\vskip 0.1in
+\cvcomputer{Backup}{Duply, Borg}
+           {\kern-1em Virtualisierung}{Docker}
+\vskip 0.1in
+\cvcomputer{Installation / Deployment}{Ansible, Cloudinit, systemd}
+           {Infrastruktur Software}{Docker Registry, Minio}
+\vskip 0.1in
+\cvcomputer{\kern-3ex Betriebssysteme}{Debian, Ubuntu, Alpine}
+           {Datenbanken}{Redis, PostgreSQL}
+\vskip 0.1in
+
+\section{Fremdsprachen}
+
+\cvlanguage{Englisch}{Fließend, Tägliche Nutzung}{}
+
+\newpage
+
+\section{Erfahrung}
+
+\tlcventry{2019}{0}{Site Reliability Engineer}{\href{https://www.hetzner-cloud.de/}{Hetzner Cloud GmbH}}{Unterföhring}{}%
+  {
+\begin{itemize}
+  \item Entwicklung und Design neuer Features der Hetzner Cloud
+  \item Konzeption und Umsetzung des Loadbalancer Produktes
+  \begin{itemize}
+    \item Planung der technischen Umsetzung im Operativen Bereich
+    \item Konzeption der Architektur des Soft- und Hardwarestacks
+    \item Betreuung und Weiterentwicklung der Infrastruktur
+  \end{itemize}
+  \item Betreuung mehrerer Kubernetes Cluster für internen Gebrauch
+  \item Betrieb der firmenweiten GitLab Instanz; Product Owner
+  \item Weiterentwicklung des Tools für internes Vorschlagswesen; Product Owner
+  \item Organisation interner Entwicklertreffen zum Wissensaustausch und der Kommunikationsverbesserung
+  \item Unterstützung bei Planung und Organisation teaminterner Aufgaben und Projekte
+\end{itemize}}
+\tlcventry{2016}{2019}{Sofware Engineer, Systems Engineer}{\href{https://www.hetzner.com/}{Hetzner Online GmbH}}{Falkenstein}{}%
+  {
+\begin{itemize}
+  \item Software Engineer:
+    \begin{itemize}
+      \item Eigenständige Entwicklung und Betrieb interner Web-Applikationen für die Administration
+            interner Dienste
+      \item Konzeption und Entwicklung eines ISMS nach ISO 27001
+        \begin{itemize}
+          \item Entwicklung einer Web-Applikation zur Erfassung, Strukturierung und Auswertung der
+                konzernweiten Assets
+          \item Ausarbeitung, Umsetzung und Schulung von Richtlinien für Enwicklungsabläufe
+        \end{itemize}
+      \item Planung und Entwicklung einer Applikation für internes Projektmanagement und
+            Vorschlagswesen.
+      \item Konzept und Umsetzung von Verbesserungen interner Entwicklungs- und Deploymentprozesse
+            sowie Vereinheitlichung der Standards
+        \begin{itemize}
+          \item Zielsetzung der Art des Deployments (Containerisiert)
+          \item Evaluierung einheitlicher Codestyle Guidelines und Testrichtlinien
+        \end{itemize}
+    \end{itemize}
+  \item Systems Engineer:
+    \begin{itemize}
+      \item Enwicklung und Betrieb der neuen Cloud-Platform mit verteiltem Netzwerkstorage auf Basis
+            von Ceph und Virtualisierung mit Qemu
+      \item Einfühung von Git als Firmenstandard zur Versionskontrolle; interne Schulungen und
+            Beratung bei der Migration von SVN zu Git
+      \item Evalution und Betrieb der firmenweiten GitLab Instanz; außerdem Product Owner
+      \item Integration von CI/CD Methodiken in den Arbeitsablauf der Entwicklungsabteilungen
+      \item Entwicklung und Betrieb einer Monitorlösung für Duply mit einer zentralen JSON-API
+      \item Ausarbeitung, Entwicklung und Betrieb einer Static Site Deployment Lösung mit
+            Integration in die GitLab CI Umgebung für automatisches Deployment
+      \item Implementierung und Betrieb einer Firmenweiten Docker Registry mit Integration an das
+            zentrale GitLab für CI und CD Prozesse.
+      \item Konzeption und Betrieb einer Firmenweiten Storage Platform mit S3 Schnittstelle auf
+            Basis von Minio für Integration für GitLab Runner, GitLab CI und interner Systeme.
+      \item Evaluierung einer internen Containerplatform auf Basis von Openshift/Kubernetes
+      \item Konzeption und Automatisierung interner Infrastruktur mit Ansible und Terraform
+    \end{itemize}
+\end{itemize}}
+
+\newpage
+
+\section{Projekte}
+
+\tlcventry{2019}{0}{Entwickler und Maintainer}{\href{https://github.com/voxpupuli/vox-pupuli-tasks}{Vox Pupuli Tasks}}{}{}%
+{
+\begin{itemize}
+  \item "Vox Pupuli Tasks - The Webapp for community management"
+    \begin{itemize}
+      \item Konzeption und Koordination
+      \item Entwicklung und Design neuer Features
+    \end{itemize}
+\end{itemize}}
+
+\section{Ausbildung}
+
+\tlcventry{2013}{2016}{Fachinformatiker Anwendungsentwicklung}{\href{https://hetzner.com/}{Hetzner Online GmbH}}{Falkenstein}{}{
+\begin{tightitemize}
+  \item Ausbildung zum Fachinformatiker Systemintegration
+  \item Wechsel zum Fachinformatiker Anwendungsentwicklung im dritten Jahr
+  \item Rotation durch die Abteilungen Rechenzentrums-Verkabelung, Hardwarebau, Server-wartung, Serversupport, Rechenzentrums-Softwareentwicklung, Produktentwicklung und Technologieforschung
+  \item Verwaltung, Entwicklung und Optimierung der vorhandenen Virtualisierungsplatform mit über 50.000 virtuellen Instanzen
+  \item Planung und Evaluierung einer neuen Cloud-Platform mit verteiltem und lokalem Storage
+\end{tightitemize}}
+
+\tlcventry{2010}{2013}{Industriekaufmann}{\href{https://best-gmbh.net/}{best gmbh marketing services}}{Glaubitz}{}{
+\begin{tightitemize}
+  \item Erstellung von Angeboten, Verträgen und Rechnungen
+  \item Erfahrungen im persönlichen Kundenkontakt
+  \item Koordination Abteilungsübergreifender Kommunikation und Logistik
+\end{tightitemize}}
+
+\end{document}
